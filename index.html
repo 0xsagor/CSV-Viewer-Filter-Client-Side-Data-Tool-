@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSV Viewer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <h1>CSV Viewer</h1>
+
+  <input type="file" id="file" accept=".csv">
+  <input type="text" id="search" placeholder="Search..." onkeyup="render()">
+
+  <div class="table-wrap">
+    <table id="table"></table>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
